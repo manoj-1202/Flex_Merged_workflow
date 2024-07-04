@@ -1,0 +1,1030 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.Totalcontainer{
+     height: auto;
+     width: 100%;
+    padding: 6px;
+    margin: 5px;
+}
+
+.firstContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    border: 2px solid green;
+}
+
+.subContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    border: 4px solid green;
+
+}
+
+.secondContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    padding: 5px;
+
+}
+
+.secSub{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+height: auto;
+width: 50%;
+border: 4px solid green;
+}
+
+.secSub2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    width: 49%;
+    border: 4px solid green;
+    
+ 
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color:lightgrey;
+   font-weight: bolder;
+
+}
+.clear h1{
+    margin-left: 30%;
+    margin-bottom: 25px;
+
+}
+
+.flexdirection{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.alignItems {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.title1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.a{
+    display: flex;
+    justify-content: center;
+}
+
+.box1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 15rem;
+    width: 21rem;
+    border: 5px solid yellowgreen;
+    margin: 30px;
+    padding: 5px;
+
+}
+.box2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 15rem;
+    width: 21rem;
+    border: 5px solid yellowgreen;
+    margin: 30px;
+    padding: 5px;
+}
+.box3{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 15rem;
+    width: 21rem;
+    border: 5px solid yellowgreen;
+    margin: 30px;
+    padding: 5px;
+}
+.box4 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 15rem;
+    width: 21rem;
+    border: 5px solid yellowgreen;
+    margin: 30px;
+    padding: 5px;
+    
+}
+
+.sub1{
+    display: flex;
+    flex-direction: row;
+    align-items: self-start;
+    height: 15rem;
+    width: 21rem;
+    border: 5px solid yellowgreen;
+    margin: 30px;
+    padding: 5px;
+}
+.sub2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    width: 21rem;
+    border: 5px solid yellowgreen;
+    margin: 30px;
+    padding: 5px;
+}
+.sub3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: end;
+    height: 15rem;
+    width: 21rem;
+    border: 5px solid yellowgreen;
+    margin: 30px;
+    padding: 5px;
+}
+.sub4 {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content:stretch;
+    height: 15rem;
+    width: 21rem;
+    border: 5px solid yellowgreen;
+    margin: 30px;
+    padding: 5px;
+    
+}
+
+
+.sec1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 15rem;
+    width: 21rem;
+    border: 5px solid yellowgreen;
+    margin: 30px;
+    padding: 5px;
+}
+.sec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 15rem;
+    width: 21rem;
+    border: 5px solid yellowgreen;
+    margin: 30px;
+    padding: 5px;
+}
+.sec3{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    height: 15rem;
+    width: 21rem;
+    border: 5px solid yellowgreen;
+    margin: 30px;
+    padding: 5px;
+}
+.sec4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 15rem;
+    width: 21rem;
+    border: 5px solid yellowgreen;
+    margin: 30px;
+    padding: 5px;
+    
+}
+.sec5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 15rem;
+    width: 21rem;
+    border: 5px solid yellowgreen;
+    margin: 30px;
+    padding: 5px;
+    
+}
+
+.sec6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 15rem;
+    width: 21rem;
+    border: 5px solid yellowgreen;
+    margin: 30px;
+    padding: 5px;
+    
+}
+/* ///////////////////////// */
+
+.last1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 15rem;
+    width: 21rem;
+    border: 5px solid yellowgreen;
+    margin: 30px;
+    padding: 5px;
+}
+.last2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 15rem;
+    width: 21rem;
+    border: 5px solid yellowgreen;
+    margin: 30px;
+    padding: 5px;
+}
+.last3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    height: 15rem;
+    width: 21rem;
+    border: 5px solid yellowgreen;
+    margin: 30px;
+    padding: 5px;
+}
+.last4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    height: 15rem;
+    width: 21rem;
+    border: 5px solid yellowgreen;
+    margin: 30px;
+    padding: 5px;
+    
+}
+
+.last5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 15rem;
+    width: 21rem;
+    border: 5px solid yellowgreen;
+    margin: 30px;
+    padding: 5px;
+    
+}
+.last6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 15rem;
+    width: 21rem;
+    border: 5px solid yellowgreen;
+    margin: 30px;
+    padding: 5px;
+    
+}
+
+/* inside div  box1 */  
+.dot1{
+    height: 30%;
+    width: 15%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+
+}
+
+.dot2{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+
+.dot3{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+
+}
+
+.dot4{
+    height: 30%;
+    width: 15%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+
+.dot5{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+
+.dot6{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+
+.dot7{
+    height:30% ;
+    width: 15%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+
+.dot8{
+    height:30% ;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+ }
+
+
+.dot9{
+    height:30% ;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+
+}
+
+/* inside div  box2 */  
+
+.dot10{
+     height: 20%;
+    width: 20%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+
+.dot11{
+    height: 33%;
+    width: 20%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+    
+}
+
+.dot12{
+    height: 33%;
+    width: 20%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+    
+}
+
+.dot13{
+    height: 20%;
+    width: 20%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+    
+}
+.dot14{
+    height: 33%;
+    width: 20%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+    
+}
+.dot15{
+    height: 33%;
+    width: 20%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+    
+}
+.dot16{
+    height: 20%;
+    width: 20%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+    
+}
+.dot17{
+    height: 33%;
+    width: 20%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+    
+}
+.dot18{
+    height: 33%;
+    width: 20%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+    
+}
+
+
+/* inside div  box3 */  
+
+.dot19{
+    height: 30%;
+    width: 15%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+
+.dot20{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+   
+}
+
+.dot21{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+   
+}
+
+.dot22{
+    height: 30%;
+    width: 15%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+   
+}
+.dot23{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+   
+}
+.dot24{
+    height:30% ;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+   
+
+.dot25{
+    height: 30%;
+    width: 15%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+   
+}
+.dot26{
+    height:30% ;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+   
+}
+.dot27{
+    height:30% ;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+
+/* inside div  box4 */  
+
+.dot28{
+    height: 20%;
+   width: 20%;
+   background-color: rgb(255, 81, 0);
+   margin: 5px;
+}
+
+.dot29{
+   height: 33%;
+   width: 20%;
+   background-color: rgb(255, 81, 0);
+   margin: 5px;
+   
+}
+
+.dot30{
+   height: 33%;
+   width: 20%;
+   background-color: rgb(255, 81, 0);
+   margin: 5px;
+   
+}
+
+.dot31{
+   height: 20%;
+   width: 20%;
+   background-color: rgb(255, 81, 0);
+   margin: 5px;
+   
+}
+.dot32{
+   height: 33%;
+   width: 20%;
+   background-color: rgb(255, 81, 0);
+   margin: 5px;
+   
+}
+.dot33{
+   height: 33%;
+   width: 20%;
+   background-color: rgb(255, 81, 0);
+   margin: 5px;
+   
+}
+.dot34{
+   height: 20%;
+   width: 20%;
+   background-color: rgb(255, 81, 0);
+   margin: 5px;
+   
+}
+.dot35{
+   height: 33%;
+   width: 20%;
+   background-color: rgb(255, 81, 0);
+   margin: 5px;
+   
+}
+.dot36{
+   height: 33%;
+   width: 20%;
+   background-color: rgb(255, 81, 0);
+   margin: 5px;
+   
+}
+
+/* subcontainer css */
+
+.bot1{
+
+    height: 40%;
+    width: 5rem;
+    margin: 5px;
+    background-color: red;
+}
+
+.bot2{
+    height: 70%;
+    width: 5rem;
+    margin: 5px;
+    background-color: red;
+}
+
+
+.bot3{
+    height: 50%;
+    width: 5rem;
+    margin: 5px;
+    background-color: red;
+}
+
+.bot4{
+
+    height: 40%;
+    width: 5rem;
+    margin: 5px;
+    background-color: red;
+}
+
+.bot5{
+    height: 70%;
+    width: 5rem;
+    margin: 5px;
+    background-color: red;
+}
+
+
+.bot6{
+    height: 50%;
+    width: 5rem;
+    margin: 5px;
+    background-color: red;
+}
+
+.bot7{
+
+    height: 40%;
+    width: 5rem;
+    margin: 5px;
+    background-color: red;
+}
+
+.bot8{
+    height: 70%;
+    width: 5rem;
+    margin: 5px;
+    background-color: red;
+}
+
+
+.bot9{
+    height: 50%;
+    width: 5rem;
+    margin: 5px;
+    background-color: red;
+}
+
+/* ///// */
+
+.bot10{
+
+    height: 40%;
+    width: 5rem;
+    margin: 5px;
+    background-color: red;
+}
+
+.bot11{
+    height: 70%;
+    width: 5rem;
+    margin: 5px;
+    background-color: red;
+}
+
+
+.bot12{
+    height: 50%;
+    width: 5rem;
+    margin: 5px;
+    background-color: red;
+}
+/* ////////// */
+
+.cir1{
+    height: 90%;
+    width: 15%;
+    margin: 5px;
+    background-color: red;
+}
+.cir2{
+    height: 90%;
+    width: 25%;
+    margin: 5px;
+    background-color: red;
+}
+.cir3{
+    height: 90%;
+    width: 15%;
+    margin: 5px;
+    background-color: red;
+}
+
+.cir4{
+    height: 90%;
+    width: 15%;
+    margin: 5px;
+    background-color: red;
+}
+.cir5{
+    height: 90%;
+    width: 25%;
+    margin: 5px;
+    background-color: red;
+}
+.cir6{
+    height: 90%;
+    width: 15%;
+    margin: 5px;
+    background-color: red;
+}
+.cir7{
+    height: 90%;
+    width: 15%;
+    margin: 5px;
+    background-color: red;
+}
+.cir8{
+    height: 90%;
+    width: 25%;
+    margin: 5px;
+    background-color: red;
+}
+.cir9{
+    height: 90%;
+    width: 15%;
+    margin: 5px;
+    background-color: red;
+}
+.cir10{
+    height: 90%;
+    width: 15%;
+    margin: 5px;
+    background-color: red;
+}
+.cir11{
+    height: 90%;
+    width: 25%;
+    margin: 5px;
+    background-color: red;
+}
+.cir12{
+    height: 90%;
+    width: 15%;
+    margin: 5px;
+    background-color: red;
+}
+.cir13{
+    height: 90%;
+    width: 15%;
+    margin: 5px;
+    background-color: red;
+}
+.cir14{
+    height: 90%;
+    width: 25%;
+    margin: 5px;
+    background-color: red;
+}
+.cir15{
+    height: 90%;
+    width: 15%;
+    margin: 5px;
+    background-color: red;
+}
+.cir16{
+    height: 90%;
+    width: 15%;
+    margin: 5px;
+    background-color: red;
+}
+.cir17{
+    height: 90%;
+    width: 25%;
+    margin: 5px;
+    background-color: red;
+}
+.cir18{
+    height: 90%;
+    width: 15%;
+    margin: 5px;
+    background-color: red;
+}
+
+/* ///////// */
+
+
+.over1{
+    height: 30%;
+    width: 15%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over2{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over3{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over4{
+    height: 30%;
+    width: 15%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over5{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over6{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over7{
+    height: 30%;
+    width: 15%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over8{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over9{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over10{
+    height: 30%;
+    width: 15%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over11{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over12{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over13{
+    height: 30%;
+    width: 15%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over14{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over15{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over16{
+    height: 30%;
+    width: 15%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over17{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over18{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+
+.over19{
+    height: 30%;
+    width: 15%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over20{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over21{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over22{
+    height: 30%;
+    width: 15%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over23{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over24{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+
+.over25{
+    height: 30%;
+    width: 15%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over26{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over27{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over28{
+    height: 30%;
+    width: 15%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over29{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over30{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+
+.over31{
+    height: 30%;
+    width: 15%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over32{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over33{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over34{
+    height: 30%;
+    width: 15%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over35{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
+.over36{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(255, 81, 0);
+    margin: 5px;
+}
